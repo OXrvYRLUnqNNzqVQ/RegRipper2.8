@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 use lib qw(/usr/local/lib/rip-lib/lib/perl5/);
+use lib qw(/usr/local/bin/);
 #-------------------------------------------------------------------------
 # Rip - RegRipper, CLI version
 # Use this utility to run a plugins file or a single plugin against a Reg
