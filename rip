@@ -63,7 +63,8 @@ $str =~ s/($path[scalar(@path) - 1])//;
 #push(@INC,$str);
 
 #my $plugindir = $str."plugins/";
-my $plugindir = File::Spec->catfile("plugins");
+#my $plugindir = File::Spec->catfile("plugins");
+my $plugindir = "/usr/local/bin/plugins";
 #print "Plugins Dir = ".$plugindir."\n";
 # End code update
 my $VERSION = "2\.8_20190128";
