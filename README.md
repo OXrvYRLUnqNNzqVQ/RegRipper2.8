@@ -5,11 +5,12 @@ RegRipper version 2.8 Linux port
 
 Ref: https://linuxconfig.org/how-to-install-regripper-registry-data-extraction-tool-on-linux
 
-###Installing###
+### Installing ###
 
 Install depends:
 ```console
-apt-get install cpanminus make unzip wget
+sudo apt-get update
+sudo apt-get install cpanminus make unzip wget
 ```
 
 Run install script:
