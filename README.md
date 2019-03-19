@@ -18,6 +18,12 @@ Run install script:
 sudo sh install.sh
 ```
 
+And thats it, if installation worked the following command should list all plugins
+```console
+rip -l -c
+```
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is the GitHub repository for RegRipper version 2.8
